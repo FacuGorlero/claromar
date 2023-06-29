@@ -1,0 +1,51 @@
+@import "tipografia";
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 10em;
+    position: relative;
+    min-height: 100vh;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+// titulo
+header{
+   font-family: $titulo;
+}
+h1{
+    font-size: 60px !important;
+}
+// hoteles
+
+.carousel{
+    max-width: 700px;
+    max-height: 700px;
+    
+}
+
+
+.textos{
+   font-family: $text;
+}
+
+
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+}
+
+
+
+
+
